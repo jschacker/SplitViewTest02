@@ -39,8 +39,8 @@
 		344167E21374442600895C49 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		344167E31374442600895C49 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		344167E41374442600895C49 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		34FFB60C1382BB1B0073DE18 /* SCSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSplitViewController.h; path = SplitViewTest02/SCSplitViewController.h; sourceTree = "<group>"; };
-		34FFB60D1382BB1B0073DE18 /* SCSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSplitViewController.m; path = SplitViewTest02/SCSplitViewController.m; sourceTree = "<group>"; };
+		34FFB60C1382BB1B0073DE18 /* SCSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSplitViewController.h; sourceTree = "<group>"; };
+		34FFB60D1382BB1B0073DE18 /* SCSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSplitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,6 @@
 		344167A013743E1700895C49 = {
 			isa = PBXGroup;
 			children = (
-				34FFB60C1382BB1B0073DE18 /* SCSplitViewController.h */,
-				34FFB60D1382BB1B0073DE18 /* SCSplitViewController.m */,
 				344167B513743E1700895C49 /* SplitViewTest02 */,
 				344167AE13743E1700895C49 /* Frameworks */,
 				344167AC13743E1700895C49 /* Products */,
@@ -89,6 +87,7 @@
 		344167B513743E1700895C49 /* SplitViewTest02 */ = {
 			isa = PBXGroup;
 			children = (
+				348596EC1382EF6900FC1079 /* View Controllers */,
 				344167BE13743E1700895C49 /* SplitViewTest02AppDelegate.h */,
 				344167BF13743E1700895C49 /* SplitViewTest02AppDelegate.m */,
 				344167C413743E1700895C49 /* DetailViewController.h */,
@@ -112,6 +111,15 @@
 				344167BC13743E1700895C49 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		348596EC1382EF6900FC1079 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34FFB60C1382BB1B0073DE18 /* SCSplitViewController.h */,
+				34FFB60D1382BB1B0073DE18 /* SCSplitViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

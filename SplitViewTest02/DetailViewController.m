@@ -18,11 +18,8 @@
 @implementation DetailViewController
 
 @synthesize toolbar=_toolbar;
-
 @synthesize detailItem=_detailItem;
-
 @synthesize detailDescriptionLabel=_detailDescriptionLabel;
-
 @synthesize popoverController=_myPopoverController;
 
 #pragma mark - Managing the detail item
